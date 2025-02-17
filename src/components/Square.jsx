@@ -1,24 +1,10 @@
-import react from "react";
+ import React from "react";
 
-const Board = () => {
-  return (
-    <main>
-      <div className="board-row">
-        <button className="square">1</button>
-        <button className="square">2</button>
-        <button className="square">3</button>
-      </div>
-      <div className="board-row">
-        <button className="square">4</button>
-        <button className="square">5</button>
-        <button className="square">6</button>
-      </div>
-      <div className="board-row">
-        <button className="square">7</button>
-        <button className="square">8</button>
-        <button className="square">9</button>
-      </div>
-    </main>
-  );
-};
-export default Board;
+
+ const Square = () => {
+    return (
+      <button className="square">1</button>
+    );
+ }
+
+ export default Square;

@@ -1,4 +1,4 @@
-import Square from "./components/Square";
+import Square from "./components/Board";
 import './App.css';
 
 const App = () => {
