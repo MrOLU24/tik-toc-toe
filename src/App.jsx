@@ -1,10 +1,11 @@
-import react from "react";
+import Square from "./components/Square";
 
 const App = () => {
-  return (
+  return(
     <div>
-      <h1>Hello, World!</h1>
+      <h1>Tic Tac Toe Game</h1>
+      <Square/>
     </div>
-  );
-};
-export default App;
+  )
+}
+export default App; 
