@@ -2,7 +2,15 @@ import react from "react";
 
  const Square = () =>{
   return (
-    <div>
+    <div className="square">
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
+      <button>X</button>
       <button>X</button>
     </div>
   )
