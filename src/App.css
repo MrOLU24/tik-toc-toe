@@ -36,9 +36,10 @@ h1 {
   margin: 5px;
   background-color: #f1f1f1;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  font-size: 1.5rem;
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  text-align: center;
   font-weight: 800;
   color: #0dcc0d;
   cursor: pointer;
