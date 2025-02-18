@@ -1,15 +1,8 @@
- import React from "react";
- import { useState } from "react";
+import React from "react";
+import { useState } from "react";
 
+const Square = ({ value }) => {
+  return <button className="square">{value}</button>;
+};
 
- const Square = () => {
-    const [value, setValue] = useState(null);
-    const handleClick = () => {
-       setValue('X');
-    }
-    return (
-      <button onClick={handleClick} className="square">{value}</button>
-    );
- }
-
- export default Square;
+export default Square;
